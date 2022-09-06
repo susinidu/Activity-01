@@ -1,15 +1,15 @@
 function getInputValue() {
-    var startTime, endTime, numberOfLaps, answer;
+    var startTime, endTime, numberOfLaps, Answer;
     var startTime =
         document.getElementById("stTime").value;
 
     var endTime =
         document.getElementById("endTime").value;
 
-    let numberOfLaps = (2* 22/7 *21)
+    var numberOfLaps = (2* 22/7 *21)
         document.getElementById("NoLaps").value;
 
-    var answer = numberOfLaps / (endTime - startTime);
+    var Answer = (numberOfLaps / endTime - startTime);
 }
 
 function myFunction() {
