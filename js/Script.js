@@ -12,6 +12,6 @@ var speed = numberOfLaps / (endTime - startTime);
 }
 
 
-function myfunction() {
+function myFunction() {
     document.getElementById("demo").innerHTML = "Speed Of Kamal" + "=" + speed + "ms-1";
 }
