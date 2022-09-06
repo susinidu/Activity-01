@@ -1,17 +1,18 @@
 function getInputValue() {
+   
+}
+
+function myFunction(){
     var startTime, endTime, numberOfLaps, Answer;
-    var startTime =
-        document.getElementById("stTime").value;
+    var startTime =document.getElementById("stTime").value;
+    
+    
+    var endTime =document.getElementById("endTime").value;
+    console.log (endTime);
+    var numberOfLaps = document.getElementById("NoLaps").value;
 
-    var endTime =
-        document.getElementById("endTime").value;
+    var Answer = (2*(22/7)*21)*numberOfLaps / (endTime - startTime);
 
-    var numberOfLaps = (2* 22/7 *21)
-        document.getElementById("NoLaps").value;
-
-    var Answer = (numberOfLaps / endTime - startTime);
+    alert(Answer);
 }
-
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Speed Of Kamal" + "=" + Answer + "ms-1";
-}
+    // document.getElementById("demo").innerHTML = "Speed Of Kamal" + "=" + Answer + "ms-1";
