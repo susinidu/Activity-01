@@ -12,6 +12,6 @@ function myFunction(){
     var Answer = (2*(22/7)*21)*numberOfLaps / (endTime - startTime);
 
 
-document.getElementById("demo").innerHTML = "Speed Of Kamal" + "=" + Answer + "ms-1";
+document.getElementById("demo").innerHTML = "Speed Of Kamal" + "=" + " " + Answer + "ms-1";
     
 }
