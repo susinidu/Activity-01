@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h2>Speed Of Kamal</h2>
+        <h2>Speed Of Kamal:</h2>
 
         <img src="track.jpg" width="200" height="150">
         
         <form onsubmit="myFunction()">
-            Start Time : <br><input type="text" placeholder="type..." id="stTime"><br>
-            End Time : <br><input type="text" placeholder="type..." id="endTime"><br>
-            Number Of Laps : <br><input type="text" placeholder="type..." id="NoLaps">
+            Start Time : <br><input type="number" placeholder="type..." id="stTime"><br>
+            End Time : <br><input type="number" placeholder="type..." id="endTime"><br>
+            Number Of Laps : <br><input type="number" placeholder="type..." id="NoLaps">
                 <p id="demo">Speed Of Kamal = </p>
             <input type="submit" value="Submit">
         </form>
-        <h2>Average Of 5 Runners</h2>
+        <h2>Average Of Five Runners:</h2>
         <form onsubmit="myFunction(1)">
-            <table style="width:50%">
+           <table>
            <tr>
-            <td>1st Runner Speed : <br><input type="number" placeholder="type..."></td>
-            <td>2nd Runner Speed : <br><input type="number" placeholder="type..."></td>
-            <td>3rd Runner Speed : <br><input type="number" placeholder="type..."></td>
-            <td>4th Runner Speed : <br><input type="number" placeholder="type..."></td>
-            <td>5th Runner Speed : <br><input type="number" placeholder="type..."></td>
+            <td>1st Runner Speed : <br><input type="number" placeholder="type..." id="1stRSpeed"></td>
+            <td>2nd Runner Speed : <br><input type="number" placeholder="type..." id="2ndRSpeed"></td>
+            <td>3rd Runner Speed : <br><input type="number" placeholder="type..." id="3rdRSpeed"></td>
+            <td>4th Runner Speed : <br><input type="number" placeholder="type..." id="4thRSpeed"></td>
+            <td>5th Runner Speed : <br><input type="number" placeholder="type..." id="5thRSpeed"></td>
+            
             </tr>
+        </table>
+            <br>Average Speed: <br><input type="number" placeholder="Average">
         </form>
-    </table>
+    
         
         <script src="js/Script.js"></script>
     </body>
