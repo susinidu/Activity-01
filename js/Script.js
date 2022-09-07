@@ -28,6 +28,6 @@ function myFunction(){
 
     var speed =((firstRunnerSpeed)/5 + (secondRunnerSpeed)/5 + (thirdRunnerSpeed)/5 + (fourthRunnerSpeed)/5 + (fifthRunnerSpeed)/5);
 
-document.getElementById("Speed").innerHTML =speed + " " + "ms-1"; 
+document.getElementById("Speed").innerHTML =speed + "ms-1";
 
 }
