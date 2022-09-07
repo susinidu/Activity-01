@@ -10,13 +10,13 @@
             End Time : <br><input type="number" placeholder="type..." id="endTime"><br>
             Number Of Laps : <br><input type="number" placeholder="type..." id="NoLaps">
                 <p id="demo">Speed Of Kamal = </p>
-            <input type="submit" value="Submit">
+                <input type="submit" value="Submit">
         </form>
 
 
         <h2>Average Of Five Runners:</h2>
 
-        <form onsubmit="myFunction()">
+        <form onsubmit="myFunction(demo)">
             <table>
                 <tr>
                     <td>1st Runner Speed : <br><input type="text" placeholder="type..." id="firstRSpeed"></td>
@@ -28,7 +28,7 @@
                 </tr>
             </table>
             <br>Average Speed = <output type="number" placeholder="Average" id="Speed">
-            <br><br><input type="submit" value="Submit">
+            <br><br><button type="button" onclick="myFunction(demo)">Try it</button>
         </form>
     
         
