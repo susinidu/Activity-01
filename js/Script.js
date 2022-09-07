@@ -15,7 +15,7 @@ function myFunction(){
 document.getElementById("demo").innerHTML = "Speed Of Kamal" + "=" + " " + Answer + "ms-1";
 }
 
-function myFunction(demo){
+function anotherFunction(){
     event.preventDefault()
     var firstRunnerSpeed, secondRunnerSpeed, thirdRunnerSpeed, fourthRunnerSpeed, fifthRunnerSpeed, average;
     var firstRunnerSpeed =document.getElementById("firstRSpeed").value;
